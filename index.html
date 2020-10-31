@@ -37,21 +37,26 @@
               <h5 class="modal-title">Add a new project.</h5>
               
             <div class="modal-body">
-              <h5 class="modal-title">Project Name.</h5>
-              <p><input id="project-name" placeholder="Enter the project's name"></p>
-              <h5 class="modal-title">Project Type</h5>
-              <p><select id="project-type">
-                <option value="" selected disabled hidden>Pick one...</option>
-                <option value="type-1">Type 1</option>
-                <option value="type-2">Type 2</option>
-                <option value="type-3">Type 3</option>
-                <option value="type-4">Type 4</option>
-              </select>
-              </p>
-              <h5 class="modal-title">Hourly Rate ($)</h5>
-              <input id="hourly-rate" placeholder="$ ">
-              <h5 class="modal-title">Due Date</h5>
-              <input id="due-date" placeholder="When is the project due?">
+              <form>
+                <div class="form-group">
+                  <h5 class="modal-title">Project Name.</h5>
+                  <p><input id="project-name" placeholder="Enter the project's name"></p>
+                  <h5 class="modal-title">Project Type</h5>
+                  <p><select id="project-type">
+                    <option value="" selected disabled hidden>Pick one...</option>
+                    <option value="type-1">Type 1</option>
+                    <option value="type-2">Type 2</option>
+                    <option value="type-3">Type 3</option>
+                    <option value="type-4">Type 4</option>
+                  </select>
+                  </p>
+                  <h5 class="modal-title">Hourly Rate ($)</h5>
+                  <input id="hourly-rate" placeholder="$ ">
+                  <h5 class="modal-title">Due Date</h5>
+                  <input id="due-date" placeholder="When is the project due?">
+                </div>
+              </form>
+              
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
