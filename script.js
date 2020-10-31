@@ -12,3 +12,6 @@ $( function() {
     $( "#datepicker" ).datepicker();
   } );
   dateInputEl.datepicker();
+
+var today = moment();
+$("#today").text(today.format("MMM Do, YYYY"));
