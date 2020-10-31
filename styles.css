@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+#jumbotron {
+    align-content: center;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+=======
 select {
     width: 350px;
 }
@@ -5,3 +15,4 @@ input {
     width: 350px;
 }
 
+>>>>>>> 35ac81713f214a1c97e1f291e61e58af94b2e962
