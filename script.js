@@ -8,6 +8,9 @@ var printSkills = function (name, date) {
   };
 
 
+printSkills(dateInput);
+dateInputEl.val('');
+
 
 $( function() {
     $( "#datepicker" ).datepicker();
