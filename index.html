@@ -27,6 +27,7 @@
                 <li class="list-group-item">Project Due Date</li>
               </ul>
             <button type="button" class="btn btn-primary">Clicker here to access app</button>   
+        </div>
     </div>
 
       <div class="project-modal" tabindex="-1">
@@ -34,26 +35,32 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">Add a new project.</h5>
-              <h5 class="modal-title">Project Name.</h5>
-              <p><input id="project-name" placeholder="Enter the project's name"></p>
-              <h5 class="modal-title">Project Type</h5>
-              <p><select id="project-type">
-                <option value="" selected disabled hidden>Pick one...</option>
-                <option value="type-1">Type 1</option>
-                <option value="type-2">Type 2</option>
-                <option value="type-3">Type 3</option>
-                <option value="type-4">Type 4</option>
-              </select>
-              </p>
-              <h5 class="modal-title">Hourly Rate ($)</h5>
-              <input id="hourly-rate" placeholder="$ ">
-              <input id="due-date" placeholder="When is the project due?">
+              
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <h5 class="modal-title">Project Name.</h5>
+                  <p><input id="project-name" placeholder="Enter the project's name"></p>
+                  <h5 class="modal-title">Project Type</h5>
+                  <p><select id="project-type">
+                    <option value="" selected disabled hidden>Pick one...</option>
+                    <option value="type-1">Type 1</option>
+                    <option value="type-2">Type 2</option>
+                    <option value="type-3">Type 3</option>
+                    <option value="type-4">Type 4</option>
+                  </select>
+                  </p>
+                  <h5 class="modal-title">Hourly Rate ($)</h5>
+                  <input id="hourly-rate" placeholder="$ ">
+                  <h5 class="modal-title">Due Date</h5>
+                  <input id="due-date" placeholder="When is the project due?">
+                </div>
+              </form>
+              
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -63,6 +70,7 @@
         </div>
       </div>
 
+<<<<<<< HEAD
       <table class="table">
         <thead>
             <tr>
@@ -75,6 +83,30 @@
             </tr>
         </thead>
       </table>
+=======
+      <div class="container bg-dark text-white " style="width:100%">
+        <div class="row">
+          <div class="col-sm">
+            Project Name
+          </div>
+          <div class="col-sm">
+            Project Type
+          </div>
+          <div class="col-sm">
+            Hourly Wage
+          </div>
+          <div class="col-sm">
+            Due date
+          </div>
+          <div class="col-sm">
+            Days Until Due Date
+          </div>          
+          <div class="col-sm">
+            Est. Total Earned
+          </div>
+        </div>
+      </div>
+>>>>>>> db4d5720778030b0e3d0ca3b8dc1d366e63b09a8
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
