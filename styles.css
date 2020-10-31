@@ -1,3 +1,7 @@
-#jumbotron {
-    align-content: center;
+select {
+    width: 350px;
 }
+input {
+    width: 350px;
+}
+
