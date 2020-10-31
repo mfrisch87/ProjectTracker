@@ -1,3 +1,11 @@
+#jumbotron {
+    align-content: center;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
 select {
     width: 350px;
 }
